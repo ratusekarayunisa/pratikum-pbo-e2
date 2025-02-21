@@ -1,1 +1,3 @@
-# pratikum-pbo-e2
+
+#nama : Ratu sekar ayu nisa
+#NIM: 24060123140130
