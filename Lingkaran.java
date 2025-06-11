@@ -25,5 +25,19 @@ public class Lingkaran extends BangunDatar{
     public double getKeliling(){
         return 2 *Math.PI *jari;
     }
+
+     public double getDiameter() {
+        return 2 * jariJari;
+    }
+
+    // Overriding method printInfo
+    @Override
+    public void printInfo() {
+        super.printInfo(); // Memanggil printInfo dari superclass
+        System.out.println("Jari-jari: " + jariJari);
+        System.out.println("Diameter: " + getDiameter());
+        System.out.println("Luas: " + getLuas());
+        System.out.println("Keliling: " + getKeliling());
+    }
 }
 
